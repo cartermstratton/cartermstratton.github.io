@@ -6,11 +6,40 @@
 -->
 <html>
 	<head>
-		<title>Massively by HTML5 UP</title>
+		<title>Carter Strattons Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.section-title {
+				text-align: center;
+				width: 100%;
+				margin: 20px 0;
+				padding: 20px 0;
+				background-color: #ffffff;
+				border-bottom: 2px solid #121757;
+			}
+			.section-title h2{
+    		font-size: 5em; /* Increase the font size (adjust as needed) */
+    		font-weight: bold; /* Keep the text bold */
+    		color: #000000; /* Adjust color if necessary */
+    		margin: 0; /* Keep margins consistent */
+    		text-transform: uppercase; /* Ensure text is uppercase (optional) */
+			}
+			.image-main img {
+    		width: 450px; /* Adjust the width to make it smaller */
+    		height: 450px; /* Keep it square to ensure the circle effect */
+    		border-radius: 50%; /* Make the image circular */
+    		object-fit: cover; /* Ensure the image fits perfectly within the circle */
+    		border: 1px solid #333; /* Optional: Add a border */
+    		margin: 0 auto; /* Center the image if needed */
+    		display: block; /* Ensure it's treated as a block for centering */
+}
+
+
+			
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -20,7 +49,7 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Carter Stratton's Personal Portfolio</h1>
-						<p>See below for projects and stuff</p>
+						<p>See below to learn more about me, my technical project experience and my personal interests. </p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -34,12 +63,13 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">About Me</a></li>
-							
+							<li class="active"><a href="#about">About Me</a></li>
+							<li class="active"><a href="#technical-projects">Technical Projects</a></li>
+							<li class="active"><a href="index.html">Personal Interests</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/carter-stratton/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							
 						</ul>
 					</nav>
 
@@ -47,89 +77,87 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
+							<article class="post featured" id="about">
+								<a href="#" class="image-main"><img src="images/profile.jpg" alt="" /></a>
 								<header class="major">
 									<h2>My Name is<br />
 									Carter Stratton</a></h2>
-									<p> ....</p>
+									<p>I am a problem solver at heart, with extensive experience working in collaborative team environments to develop engineering solutions to open-ended real-world problems. As a third year Biomedical Engineering student at the University of British Columbia (UBC), I am passionate about applying engineering design principles specifically to the medical field. </p>
 								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								
 								
 							</article>
-
+							<section>
+								<header class="section-title" id="technical-projects">
+									<h2>Technical Projects</h2>
+									
+								</header>
+							</section>
 						<!-- Posts -->
-							<section class="posts">
+							<section class="posts" id="my-projects">
+								
 								<article>
 									<header>
-										<h2><a href="#">Medical School Thoracotomy Model<br />
+										<h2><a href="ribcage.html">Medical School Thoracotomy Model<br />
 										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="ribcage.html" class="image fit"><img src="images/rib.png" alt="" /></a>
+									<p>Volunteering with the 3D Printing lab at Memorial University of Newfounlands Medical School, I designed a human upper body model in SolidWorks for 
+										medical school student to practice a thoracotomy surgery. 
+										</p>
 									<ul class="actions special">
-										<li><a href="ribcage.html" class="button">Full Story</a></li>
+										<li><a href="ribcage.html" class="button">Read More</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
+										<h2><a href="lift_frame.html">Manage Pressure Drilling<br />
+										Lifting Frame</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="lift_frame.html" class="image fit"><img src="images/lifting.png" alt="" /></a>
+									<p>During my engineering work term at Frontier Inc., I designed an estimated $100,000 lifting frame in SolidWorks to securely install a 7 tonne, 2 meter tall Manage Pressure Drilling (MPD)
+										unit onto the existing Blowout Prevent of an offshore oil production platform. </p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="lift_frame.html" class="button">Read More</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
+										
+										<h2><a href="suspension.html">Push Rod Rear Suspension Design<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="suspension.html" class="image fit"><img src="images/sus.jpg" alt="" /></a>
+									<p>As a suspension subteam member at the UBC Formula Electric Design Team, I designed the rear suspension system for the 2024 competition car. </p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="suspension.html" class="button">Read More</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
+										
+										<h2><a href="transponder.html">Subsea Transponder <br />
+										Retention Device</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="transponder.html" class="image fit"><img src="images/transponder.png" alt="" /></a>
+									<p>During my engineering work term at Frontier Inc., I designed a subsea transponder retention device to ensure subsea radio transponders on an offshore Floating, Production, Storage and Operations vessel (FPSO) remain secure under subsea loading conditions. </p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="transponder.html" class="button">Read More</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
+										<h2><a href="catchcan.html">Catch Can Design<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="catchcan.html" class="image fit"><img src="images/catchcan.png" alt="" /></a>
+									<p>As a suspension subteam member at the UBC Formula Electric Design Team, I designed the Catch Can for our 2023 competition car. </p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="catchcan.html" class="button">Read More</a></li>
 									</ul>
 								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
+								
+								
 							</section>
 
 						<!-- Footer -->
@@ -141,26 +169,16 @@
 					<footer id="footer">
 						
 						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
+													
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
+								<p><a href="#">cstrat01@student.ubc.ca</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/carter-stratton/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+									
 								</ul>
 							</section>
 						</section>
